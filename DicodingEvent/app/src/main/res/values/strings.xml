@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DicodingEvent</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_image">Image Event\n</string>
+    <string name="dicoding_event">Dicoding Event</string>
+    <string name="recommended_event_for_you">Recommended event for you!</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="finish_event">Finish Event</string>
+</resources>
