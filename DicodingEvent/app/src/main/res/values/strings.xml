@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DicodingEvent</string>
+    <string name="app_name">Dicoding Event</string>
     <string name="title_notifications">Notifications</string>
     <string name="event_name">Event Name</string>
     <string name="event_image">Image Event\n</string>
@@ -7,4 +7,13 @@
     <string name="recommended_event_for_you">Recommended event for you!</string>
     <string name="upcoming_event">Upcoming Event</string>
     <string name="finish_event">Finish Event</string>
+    <string name="title_home">Home</string>
+    <string name="event_date">Event Date</string>
+    <string name="register_now">Register Now</string>
+    <string name="by_organizer">by Organizer</string>
+    <string name="detail_event_image">Detail Event Image</string>
+    <string name="time_time_event">Time: time_event</string>
+    <string name="quota_event_quota">Quota: event quota</string>
+    <string name="description">Description</string>
+    <string name="registrant">Registrant:</string>
 </resources>

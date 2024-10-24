@@ -7,14 +7,16 @@ android {
     namespace = "com.dicoding.dicodingevent"
     compileSdk = 34
 
+    val baseUrl: String = project.findProperty("BASE_URL") as String? ?: "https://event-api.dicoding.dev/"
+
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
     defaultConfig {
         applicationId = "com.dicoding.dicodingevent"
         minSdk = 30
@@ -23,7 +25,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "BASE_URL", "\"$baseUrl\"")
     }
+
 
     buildTypes {
         release {
@@ -47,8 +51,11 @@ android {
 }
 
 dependencies {
-    implementation (libs.androidx.fragment.ktx)
-    implementation (libs.androidx.activity.ktx)
+    implementation(libs.glide.v4120)
+    implementation(libs.androidx.activity)
+    annotationProcessor(libs.compiler)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.glide)

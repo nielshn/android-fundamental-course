@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/imgEvent"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             android:contentDescription="@string/event_image"
             android:scaleType="centerCrop"
              />
@@ -37,13 +37,13 @@
             android:ellipsize="end" />
 
 <!--        &lt;!&ndash; Event Date &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/tvEventDate"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/date_16_may_2024"-->
-<!--            android:textColor="@android:color/darker_gray"-->
-<!--            android:textSize="14sp"-->
-<!--            android:layout_marginTop="4dp" />-->
+        <TextView
+            android:id="@+id/tvEventDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/event_date"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
